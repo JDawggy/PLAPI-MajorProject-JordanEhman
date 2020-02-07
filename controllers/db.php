@@ -57,7 +57,7 @@ class DB {
         if(APP_DEBUG) echo "conn()<br>";
 
 
-        if( $_SERVER["SERVER_NAME"] == "www.justjordan.ca") {
+        if( $_SERVER["SERVER_NAME"] == "justjordan.ca") {
 
             $servername = "localhost";
             $username = "JDawwgy";

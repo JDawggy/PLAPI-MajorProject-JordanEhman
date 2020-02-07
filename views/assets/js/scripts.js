@@ -251,7 +251,7 @@ $(document).ready(function(){
 
         
 
-        $(".star1").removeClass(".far").addClass(".fas");
+        $(".modal-body").find("#star1").removeClass(".far").addClass(".fas");
 
         e.preventDefault();
 

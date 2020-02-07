@@ -158,12 +158,15 @@ class Item extends DB {
 
         $user_id = (int)$user_id; // check that value is an integer
 
+        $ad_id = $_GET["id"];
+        
+
         $sql = "SELECT ads.*, ads.id AS 'ad_id',
                         users.*, users.id AS 'user_id'
                 FROM ads 
                 LEFT JOIN users
                 ON ads.owner_id = users.id
-                WHERE owner_id = $user_id";
+                WHERE owner_id = $user_id & ad_id = $ad_id";
 
         $ads = $this->select($sql)[0];
 

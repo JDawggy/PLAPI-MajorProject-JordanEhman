@@ -45,7 +45,7 @@ if( !empty( $_POST["title"] ) &&
     // }
     // redirect to home page once added
 
-    if(!APP_DEBUG) header("Location: /");
+    if(!APP_DEBUG) header("Location: /users/");
 
 } else {
     return;

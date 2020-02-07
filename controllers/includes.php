@@ -50,6 +50,8 @@ if(!empty($_SESSION["user_logged_in"])) {
     $user= new User;
     $current_user = $user->get_by_id($_SESSION["user_logged_in"]);
 
+} else {
+    $_SESSION["user_logged_in"] = 0;
 }
 
 

@@ -399,7 +399,7 @@ $user_info = $info->get_by_id($_SESSION["user_logged_in"]);
     <div class="row mt-5 ml-3">
 
         <button class="btnn mr-4">Post Your Ad</button>
-        <button class="btnw">Preview</button>
+        <!-- <button class="btnw">Preview</button> -->
 
     </div>
 

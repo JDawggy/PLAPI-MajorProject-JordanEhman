@@ -38,55 +38,55 @@ $number_ads = count($ads);
                     <?php
                     if($_GET["category"] == "All Categories") {
                         ?>
-                        <a href="/search.php?category=All+Categories" class="category-selection selected color">All Categories</a><br>
+                        <a href="/search.php?search=+&category=All+Categories" class="category-selection selected color">All Categories</a><br>
                         <?php
                     } else {
                         ?>
-                        <a href="/search.php?category=All+Categories" class="category-selection color">All Categories</a><br>
+                        <a href="/search.php?search=+&category=All+Categories" class="category-selection color">All Categories</a><br>
                         <?php
                     }
                     ?>
                     <?php
                     if($_GET["category"] == "ps") {
                         ?>
-                        <a href="/search.php?category=ps" class="category-selection color selected">Playstation</a><br>
+                        <a href="/search.php?search=playstation&category=ps" class="category-selection color selected">Playstation</a><br>
                         <?php
                     } else {
                         ?>
-                        <a href="/search.php?category=ps" class="category-selection color">Playstation</a><br>
+                        <a href="/search.php?search=playstation&category=ps" class="category-selection color">Playstation</a><br>
                         <?php
                     }
                     ?>
                     <?php
                     if($_GET["category"] == "xb") {
                         ?>
-                        <a href="/search.php?category=xb" class="category-selection color selected">Xbox</a><br>
+                        <a href="/search.php?search=xbox&category=xb" class="category-selection color selected">Xbox</a><br>
                         <?php
                     } else {
                         ?>
-                        <a href="/search.php?category=xb" class="category-selection color">Xbox</a><br>
+                        <a href="/search.php?search=xbox&category=xb" class="category-selection color">Xbox</a><br>
                         <?php
                     }
                     ?>
                     <?php
                     if($_GET["category"] == "n") {
                         ?>
-                        <a href="/search.php?category=n" class="category-selection color selected">Nintendo</a><br>
+                        <a href="/search.php?search=nintendo&category=n" class="category-selection color selected">Nintendo</a><br>
                         <?php
                     } else {
                         ?>
-                        <a href="/search.php?category=n" class="category-selection color">Nintendo</a><br>
+                        <a href="/search.php?search=nintendo&category=n" class="category-selection color">Nintendo</a><br>
                         <?php
                     }
                     ?>
                     <?php
                     if($_GET["category"] == "rt") {
                         ?>
-                        <a href="/search.php?category=rt" class="category-selection color selected">Retro</a>
+                        <a href="/search.php?search=sega&category=rt" class="category-selection color selected">Retro</a>
                         <?php
                     } else {
                         ?>
-                        <a href="/search.php?category=rt" class="category-selection color">Retro</a>
+                        <a href="/search.php?search=sega&category=rt" class="category-selection color">Retro</a>
                         <?php
                     }
                     ?>
